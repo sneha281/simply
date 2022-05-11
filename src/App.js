@@ -2,7 +2,7 @@ import React from 'react'
 import './App.css'
 import Blog from './pages/Blog/index.js'
 import Home from './pages/Home/index.js'
-
+import 'bootstrap/dist/css/bootstrap.min.css';
 import { BrowserRouter, Routes, Route } from "react-router-dom";
 const App = () => {
   return (
